@@ -1,0 +1,19 @@
+The required libraries to have the program work are as follows:
+
+    The yaml library --> (import yaml)
+    - requires install via pip
+
+    The python os library --> (import os)
+
+    The bcrypt library for salted password hashing --> (import bcrypt) 
+    - requires install via pip 
+
+    The pwinput library for masked password input --> (import pwinput)
+    - requires install via pip
+
+    The base64 library for base64 encoding --> (import base64)
+
+    The the Fernet module from the cryptography library --> (from cryptography.fernet import Fernet)
+    - cryptography requires pip install
+
+    Our run.py file --> (import run)
